@@ -16,3 +16,13 @@ Actual code of file
 1 servlet is generated( included file is inserted into main page, that page is translated into servlet)
 
 check notebook also
+
+EL
+Concise access to stored objects.
+shorthand notation for bean properties.
+Eg:${requestScopeuser.pet}
+otherwise you have to write getters in code..
+Automatic type conversion
+Empty values instead of error messages.
+Condtioinal o/p.
+Small but useful set of simple operations.

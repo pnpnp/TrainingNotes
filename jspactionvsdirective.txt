@@ -1,0 +1,18 @@
+Include action
+
+<jsp:include page=".."/>
+At run time
+Output of included page
+2 servltes ar generated..main page and icluded page each become seperate servlet)
+
+
+
+
+
+Include Directive
+<$@include file=".."%>
+At compile time
+Actual code of file
+1 servlet is generated( included file is inserted into main page, that page is translated into servlet)
+
+check notebook also

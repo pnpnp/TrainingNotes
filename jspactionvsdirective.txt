@@ -26,3 +26,10 @@ Automatic type conversion
 Empty values instead of error messages.
 Condtioinal o/p.
 Small but useful set of simple operations.
+
+Accessing Context Info from EL
+${pageContext.servletContext.serverinfo} etc
+Accessing config information
+${pageContext.servletConfig.servletName}
+Accessing Reuqest info
+{${pageContext.request.abc}...etc
